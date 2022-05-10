@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #A3B279;
+}
+
+li, a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #A17945;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 35px;
+    color: #A17945;
+    font-family: Arial;
+
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #F1D96B;
+}
+
+img{
+    width: 25%;
+}
+
+.images{
+    display: flex;
+}
+
+.long-info{
+    margin-left: 50px;
+}
+
+input{
+    background-color: white;
+}
+
+button{
+    background-color: white;
+  
+      font-size: 15px;
+      text-transform: uppercase;
+      
+      
+      font-family: 'Odibee Sans', cursive;
+    
+}
+
+.req{
+margin-left: 27%;
+margin-bottom: 5%;
+margin-top: 10%;
+display:grid ;
+}
+
+body{
+    background: #A3B279;
+  }
+  h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 0;
+  }
+  h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 2%;
+    margin-left: 7%;
+  }
+  
+  #css {
+    color: yellow;
+    font-family: 'Odibee Sans', cursive;
+  }
+  
+  .carousel-wrapper {
+    height: 400px;
+    position: relative;
+    width: 800px;
+    display: block;
+    margin: 50px auto ;
+    border: 2px solid black;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+    color: aliceblue;
+  }
+  .arrow-prev {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    color: #fff;
+  
+  }
+  .arrow-next {
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  [id^= "item"] {
+    display: none;
+  }
+  
+  *:target ~ .item-1{
+    opacity: 0;
+  }
+  #item-1:target ~ .item-1 {
+    opacity: 1;
+  
+  }
+  #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  } 
+
+  .textbox{
+    width: 35%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    display: inline-flex;
+    margin-left: 13%;
+    background-color: #A3B279;
+    border-bottom: 2px solid #3b330f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+  }
+
+  button{
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #A17945;
+    width: 35%;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 13%;
+
+}
