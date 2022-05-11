@@ -25,7 +25,7 @@ include "functions.php";
 
     if(isset($_POST['admin']) && $_POST['username']=="admin" && $_POST['password']=="admin"){
             //$message="12345";
-            //mail('metin20112000@yahoo.com', 'My Subject', $message);
+            //mail('@yahoo.com', 'My Subject', $message);
             //$sql="UPDATE `admin` SET `username`='admin',`password`='1234567' WHERE `username`='admin'";
             //$run=mysqli_query($conn,$sql); 
             header("location:admin.php");
